@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "forum",
+    "slug": "forum",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "INTERNET"
+      ],
+      "package": "com.gaurang09.forum"
+    },
+    "scheme": "forum",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e26f8169-f70a-4c1f-b7a5-3deb8d45d1b0"
+      }
+    }
+  }
+}
